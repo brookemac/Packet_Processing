@@ -38,8 +38,6 @@ def revisedcompose (hdrlen, tosdscp, identification, flags, fragmentoffset, time
             X1 = X >> 16
             X = X0 + X1  
         
-        X = 3738
-        
         b_string = bin(X)
         ib_string = ""
         
